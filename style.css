@@ -8,6 +8,19 @@ font-family: 'Poppins', sans-serif;
 background-color: rgba(181, 190, 199, 0.699) ;
 
 }
+/* animation */
+.header-image :hover{
+    width: 200px; 
+    height: 200px;
+    transform: rotate(-30deg);
+    width: 500px;
+    height: 600px;
+    
+    
+    transition: width 5s , height 5s , transform 5s ;
+
+}
+
 
 
 
@@ -106,7 +119,7 @@ background-color: rgba(181, 190, 199, 0.699) ;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 10px;
-    text-decoration: none;
+    
     color: black;
 
    
